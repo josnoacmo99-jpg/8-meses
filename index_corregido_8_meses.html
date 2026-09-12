@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>8 meses contigo 💜</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; font-family:Georgia,serif; color:#f7f1fa;
+  background:radial-gradient(circle at top,#321c3d 0,#160f1d 42%,#09070d 100%);
+  overflow-x:hidden;
+}
+body:before{
+  content:""; position:fixed; inset:0; pointer-events:none; opacity:.14;
+  background-image:radial-gradient(#fff 1px,transparent 1px);
+  background-size:32px 32px;
+}
+section{min-height:100vh;padding:70px 22px;display:flex;align-items:center;justify-content:center}
+.card{width:min(760px,100%);text-align:center}
+.hero{min-height:100svh;position:relative}
+.kicker{letter-spacing:5px;text-transform:uppercase;font:12px Arial,sans-serif;color:#d9a9ef}
+h1{font-size:clamp(48px,14vw,90px);line-height:.95;margin:18px 0 12px;text-shadow:0 0 30px #8c42a8}
+h2{font-size:clamp(32px,9vw,54px);margin:10px 0 25px}
+p{font-size:18px;line-height:1.8;color:#e7dce9}
+.subtitle{font-size:21px;color:#d9c1df}
+button,.btn{
+  border:1px solid #b96ce0;background:#7c3b91;color:white;border-radius:999px;
+  padding:14px 25px;font-size:16px;cursor:pointer;text-decoration:none;
+  box-shadow:0 0 22px #6d347d55;display:inline-block;margin-top:18px
+}
+.scroll{position:absolute;bottom:28px;font:12px Arial;color:#caaad3;letter-spacing:2px}
+.photo{
+ width:100%; max-height:72vh; object-fit:cover; border-radius:24px;
+ box-shadow:0 15px 50px #0008; border:1px solid #ffffff18;
+}
+.caption{font-style:italic;margin-top:16px;color:#dcbde5}
+.timeline{display:grid;gap:14px;text-align:left}
+.item{padding:18px 20px;border-left:2px solid #a85cc5;background:#ffffff08;border-radius:0 18px 18px 0}
+.item b{color:#d89bf0}
+.reasons{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.reason{padding:22px 12px;border:1px solid #ffffff14;border-radius:20px;background:#ffffff09}
+.reason strong{display:block;font-size:26px;color:#d89bf0;margin-bottom:7px}
+.letter{background:#fff9ff;color:#291b2e;padding:28px;border-radius:22px;text-align:left;box-shadow:0 20px 50px #0006}
+.letter p{color:#3b2a40;font-size:17px}
+.final{background:linear-gradient(180deg,transparent,#2b1634)}
+.heart{font-size:58px;animation:pulse 1.8s infinite}
+@keyframes pulse{50%{transform:scale(1.12)}}
+.float{position:fixed;bottom:-30px;animation:up 8s linear infinite;opacity:.55;pointer-events:none}
+@keyframes up{to{transform:translateY(-110vh) rotate(30deg);opacity:0}}
+@media(max-width:520px){.reasons{grid-template-columns:1fr 1fr}.reason{font-size:14px}.reason strong{font-size:22px}}
+</style>
+</head>
+<body>
+
+<div class="float" style="left:12%;animation-delay:0s">♥</div>
+<div class="float" style="left:72%;animation-delay:3s">♡</div>
+<div class="float" style="left:45%;animation-delay:5s">♥</div>
+
+<section class="hero">
+ <div class="card">
+   <div class="kicker">Una pequeña sorpresa para ti</div>
+   <h1>8 meses<br>contigo 💜</h1>
+   <p class="subtitle">Porque estos meses no son solamente una fecha…<br>son todos los momentos que hemos compartido.</p>
+   <a class="btn" href="#historia">Abrir nuestra historia 🌷</a>
+ </div>
+ <div class="scroll">DESLIZA ↓</div>
+</section>
+
+<section id="historia">
+ <div class="card">
+   <div class="kicker">Nuestra historia</div>
+   <h2>Nosotros</h2>
+   <img class="photo" src="foto2.jpg" alt="Nuestro recuerdo">
+   <p class="caption">Y pensar que todo esto comenzó con nosotros dos…</p>
+   <div class="timeline">
+    <div class="item"><b>Capítulo 01</b><br>El comienzo de una historia que ninguno de los dos sabía hasta dónde nos llevaría.</div>
+    <div class="item"><b>Capítulo 02</b><br>Más momentos, más confianza y cada vez más razones para quererte.</div>
+    <div class="item"><b>Capítulo 03</b><br>Risas, abrazos, fotografías y recuerdos que ahora forman parte de nosotros.</div>
+    <div class="item"><b>Capítulo 08</b><br>Hoy celebramos 8 meses… y espero que sean solamente el principio.</div>
+   </div>
+ </div>
+</section>
+
+<section>
+ <div class="card">
+   <div class="kicker">Nuestros recuerdos</div>
+   <h2>Momentos que guardo ❤️</h2>
+   <img class="photo" src="foto1.jpg" alt="Recuerdo">
+   <p class="caption">Hay fotografías que duran unos segundos, pero recuerdos que se quedan para siempre.</p>
+   <img class="photo" src="foto3.jpg" alt="Recuerdo" style="margin-top:25px">
+   <p class="caption">Contigo hasta los momentos sencillos se vuelven especiales.</p>
+ </div>
+</section>
+
+<section>
+ <div class="card">
+   <div class="kicker">8 razones</div>
+   <h2>¿Por qué te quiero?</h2>
+   <div class="reasons">
+    <div class="reason"><strong>01</strong>Por tu sonrisa.</div>
+    <div class="reason"><strong>02</strong>Por tu forma de ser.</div>
+    <div class="reason"><strong>03</strong>Por cómo haces especiales mis días.</div>
+    <div class="reason"><strong>04</strong>Por todos nuestros momentos.</div>
+    <div class="reason"><strong>05</strong>Por hacerme sentir querido.</div>
+    <div class="reason"><strong>06</strong>Por las risas que compartimos.</div>
+    <div class="reason"><strong>07</strong>Porque contigo puedo ser yo.</div>
+    <div class="reason"><strong>08</strong>Porque simplemente eres tú. 💜</div>
+   </div>
+ </div>
+</section>
+
+<section>
+ <div class="card">
+   <div class="kicker">Un recuerdo más</div>
+   <h2>Mi lugar favorito</h2>
+   <img class="photo" src="foto4.jpg" alt="Recuerdo">
+   <p class="caption">No importa dónde estemos; si estoy contigo, para mí ya es un buen lugar.</p>
+   <img class="photo" src="foto5.jpg" alt="Recuerdo" style="margin-top:25px">
+ </div>
+</section>
+
+<section>
+ <div class="card">
+   <div class="kicker">Para ti</div>
+   <h2>Una carta 💌</h2>
+   <div class="letter">
+    <p>Hola, mi amor.</p>
+    <p>Hoy cumplimos 8 meses y quería hacer algo diferente para recordarte lo importante que eres para mí.</p>
+    <p>Gracias por cada momento, cada risa, cada abrazo y también por estar conmigo en los días que no son tan fáciles. Puede que no siempre encuentre las palabras correctas, pero quiero que sepas que te quiero muchísimo.</p>
+    <p>Me encanta tener recuerdos contigo y pensar en todos los que todavía nos faltan por crear. Ojalá podamos seguir creciendo juntos, aprendiendo el uno del otro y llenando nuestra historia de muchos momentos bonitos.</p>
+    <p>Felices 8 meses, mi amor. ❤️</p>
+    <p>Con todo mi cariño,<br><b>Tu amor 💜</b></p>
+   </div>
+ </div>
+</section>
+
+<section>
+ <div class="card">
+   <img class="photo" src="foto6.jpg" alt="Recuerdo">
+   <p class="caption">Y todavía nos quedan muchísimas fotografías por tomar…</p>
+   <img class="photo" src="foto7.jpg" alt="Recuerdo" style="margin-top:25px">
+ </div>
+</section>
+
+<section class="final">
+ <div class="card">
+   <div class="heart">💜</div>
+   <div class="kicker">Capítulo 08</div>
+   <h2>Esto apenas comienza</h2>
+   <p>Felices 8 meses, mi amor.</p>
+   <p>Gracias por formar parte de mi vida.<br>Quiero seguir escribiendo nuestra historia contigo.</p>
+   <p style="font-size:25px">Tú + Yo = Nosotros ♾️</p>
+   <button onclick="alert('Te quiero muchísimo. Gracias por estos 8 meses y por todos los que vienen. 💜🌷')">Abrir sorpresa 💜</button>
+ </div>
+</section>
+
+</body>
+</html>
